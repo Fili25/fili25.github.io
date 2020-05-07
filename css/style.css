@@ -198,54 +198,54 @@ color: #ffff00;
 
 @media (max-width: 770px) {
 
-    #test .vs
-{   
-    
-    height: 50%;
-    width: 50%;
-    min-width: 50%;
-    min-height: 50%;
-    
-}
-#costil{
-    display:none;
-}
+            #test .vs
+                {   
+                
+                height: 50%;
+                width: 50%;
+                min-width: 50%;
+                min-height: 50%;
+                
+                }
+            #costil{
+                display:none;
+                }
 
-#test img{
-    
-    width: 170px; height: 170px; 
-}
+            #test img{
+                
+                width: 170px; height: 170px; 
+                }
 
-.h1main{
-    
-    margin-top:30px ;
-    font-weight: 700;
-    font-size: 30px;
-    color: #ffff00;
-    -webkit-text-stroke: 1px rgb(14, 14, 14)
+            .h1main{
+                
+                margin-top:30px ;
+                font-weight: 700;
+                font-size: 30px;
+                color: #ffff00;
+                -webkit-text-stroke: 1px rgb(14, 14, 14)
 
-}
-.h2main{
-    
-    font-weight: 500;
-    font-size: 20px;
-    color: #ffff00;
-    -webkit-text-stroke: 1px rgb(14, 14, 14)
+                }
+            .h2main{
+                
+                font-weight: 500;
+                font-size: 20px;
+                color: #ffff00;
+                -webkit-text-stroke: 1px rgb(14, 14, 14)
 
-}
-#fixed
-{
-height: 100px;
-background: url("../images/fon.png") no-repeat center center fixed;
-background-blend-mode:multiply ;
--o-background-size: cover;
--moz-background-size: cover;
--webkit-background-size: cover;
-}
-.navbar-brand img
-{
-    width: 110px;
-}
+                }
+            #fixed
+                {
+            height: 100px;
+            background: url("../images/fon.png") no-repeat center center fixed;
+            background-blend-mode:multiply ;
+            -o-background-size: cover;
+            -moz-background-size: cover;
+            -webkit-background-size: cover;
+                }
+            .navbar-brand img
+                {
+                width: 110px;
+                }
 
 
  }
