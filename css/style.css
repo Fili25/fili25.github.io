@@ -242,10 +242,7 @@ background-blend-mode:multiply ;
 -moz-background-size: cover;
 -webkit-background-size: cover;
 }
-.navbar-brand img
-{
-    width: 110px;
-}
+
 
 
  }
