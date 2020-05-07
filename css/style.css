@@ -284,9 +284,9 @@ background-blend-mode:multiply ;
 -moz-background-size: cover;
 -webkit-background-size: cover;
 }
-navbar-brand
+.navbar-brand img
 {
-    width: 20%;
+    width: 50px;
 }
 
 
