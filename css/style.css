@@ -235,14 +235,17 @@ color: #ffff00;
 }
 #fixed
 {
-height: 270px;
+height: 100px;
 background: url("../images/fon.png") no-repeat center center fixed;
 background-blend-mode:multiply ;
 -o-background-size: cover;
 -moz-background-size: cover;
 -webkit-background-size: cover;
 }
-
+.navbar-brand img
+{
+    width: 110px;
+}
 
 
  }
