@@ -83,7 +83,7 @@ font-weight: 700;
     background-color: #ffff00;
     border-radius: 2px;
     color: #333333 !important;
-
+    transition: color 0.5s,background-color 1s;
 }
 
 .padding
@@ -207,7 +207,7 @@ color: #ffff00;
 }
 #test img{
     
-    width: 250px; height: 250px; 
+    width: 400px; height: 400px; 
 }
 #test .vs
 {   
