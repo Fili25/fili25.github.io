@@ -23,6 +23,11 @@ color: #333333;
             box-shadow: 0 10px 20px #ffff003f, 0 2px 15px #ffff003f;
     transition: font-size 0.5s, border-radius 0.5s, padding 0.5s;
   }
+  .card-title
+  {
+font-weight: 700;
+
+  }
   .buttonh:hover {
     font-size: 22px;
     border-radius: 110px;
@@ -35,6 +40,12 @@ color: #333333;
   .card{
 
     height: 290px;
+  }
+  .htest{
+      align-self: center;
+      justify-self: center;
+      font-size: 70px;
+      font-weight: 700;
   }
 
 
@@ -218,13 +229,14 @@ color: #ffff00;
 
     border-bottom:  6px solid #ffff00;
     border-left: 6px solid #ffff00;
-    transition: border 1s;
+    transition: border-left 1s, border-bottom 1s;
 }
 #pic1:hover
 {
-    border-bottom:0px ;
-    border-left:0px; 
+    border-bottom:1px solid #ffff00;
+    border-left:1px solid #ffff00;
     
+    transition: border-left 1s, border-bottom 1s;
 }
 
 #pic2
@@ -232,12 +244,13 @@ color: #ffff00;
 
     border-top:  6px solid #333333;
     border-right: 6px solid #333333;
-    transition: border 1s;
+    transition: border-top 1s, border-right 1s;
 }
 #pic2:hover
 {
-   border: 0px;
-    
+    border-top:  1px solid #333333;
+    border-right: 1px solid #333333;
+   transition: border-top 1s, border-right 1s;
 }
 #choosebut
 {
@@ -311,6 +324,12 @@ color: #ffff00;
                 /* -webkit-box-shadow: 0 10px 10px #ffff003f, 0 2px 10px #ffff003f;
                         box-shadow: 0 10px 10px #ffff003f, 0 2px 10px #ffff003f; */
 
+            }
+            .htest{
+                align-self: center;
+                justify-self: center;
+                font-size: 30px;
+                font-weight: 700;
             }
 
  }
