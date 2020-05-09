@@ -257,7 +257,7 @@ color: #ffff00;
 
 #pic2
 {
-
+    
     border-top:  6px solid #333333;
     border-right: 6px solid #333333;
     transition: border-top 1s, border-right 1s;
@@ -359,6 +359,11 @@ color: #ffff00;
                 font-weight: 700;
                 margin-top: 5px ;
             }
+            
+            #pic2
+            {
 
+                margin-top: -35px;
+            }
  }
 
