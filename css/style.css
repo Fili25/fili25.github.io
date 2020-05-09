@@ -19,14 +19,38 @@ color: #333333;
     text-transform: uppercase;
     background-color: #ffff00;
     margin: 10px;
-    /* -webkit-box-shadow: 0 10px 20px #ffff003f, 0 2px 15px #ffff003f;
-            box-shadow: 0 10px 20px #ffff003f, 0 2px 15px #ffff003f; */
+    -webkit-box-shadow: 0 10px 20px #ffff003f, 0 2px 15px #ffff003f;
+            box-shadow: 0 10px 20px #ffff003f, 0 2px 15px #ffff003f;
+    transition: font-size 0.5s, border-radius 0.5s, padding 0.5s;
   }
   .buttonh:hover {
     font-size: 22px;
     border-radius: 110px;
-    background-color: #c9c900;
+    padding: 17px 40px;
+    background-color: #dfdf00;
+    color: #333333;
+    text-decoration: none;
+    transition: font-size 0.5s, border-radius 0.5s, padding 0.5s;
+  }
+  .card{
 
+    height: 290px;
+  }
+
+
+  .buttont {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 14px;
+    color: #333333;
+    padding: 12px 25px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    background-color: #ffff00;
+    margin: 10px;
+    
+    transition: font-size 0.5s, border-radius 0.5s, padding 0.5s;
   }
 .navbar-brand img{
     width: 200px;
