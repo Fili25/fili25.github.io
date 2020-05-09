@@ -63,6 +63,15 @@ font-weight: 700;
     
     transition: font-size 0.5s, border-radius 0.5s, padding 0.5s;
   }
+  .buttont:hover {
+    font-size: 15px;
+    border-radius: 130px;
+    padding: 13px 26px;
+    background-color: #dfdf00;
+    color: #333333;
+    text-decoration: none;
+    transition: background-color 0.5s,font-size 0.5s, border-radius 0.5s, padding 0.5s;
+  }
 .navbar-brand img{
     width: 200px;
 }
@@ -107,8 +116,15 @@ margin-bottom:1em;
     margin:5px;
     width: 50px;
 }
-.sst{
+.namepic{
+    font-size: 30px;
     font-weight: 700;
+    margin-top: 15px ;
+}
+.sst{
+    
+    font-weight: 700;
+    margin-top: 15px ;
 }
 
 #fixed
@@ -214,7 +230,7 @@ color: #ffff00;
     
     height: 100%;
     width: 100%;
-    
+    margin-bottom: -30px;
 }
 .part
 {   
@@ -222,7 +238,7 @@ color: #ffff00;
     font-weight: 500;
     margin-top: 20px;
     background-color: #ffff00;
-
+    margin-bottom: -20px;
 }
 #pic1
 {
@@ -259,7 +275,7 @@ color: #ffff00;
 
 }
 
-@media (max-width: 770px) {
+@media (max-width: 767px) {
 
             #test .vs
                 {   
@@ -268,7 +284,8 @@ color: #ffff00;
                 width: 50%;
                 min-width: 50%;
                 min-height: 50%;
-                
+                margin-bottom: -20px;
+                margin-top: -20px;
                 }
             #costil{
                 display:none;
@@ -330,6 +347,17 @@ color: #ffff00;
                 justify-self: center;
                 font-size: 30px;
                 font-weight: 700;
+            }
+
+            .namepic{
+                font-size: 13px;
+                font-weight: 700;
+                margin-top: 5px ;
+            }
+            .sst{
+                
+                font-weight: 700;
+                margin-top: 5px ;
             }
 
  }
