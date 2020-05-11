@@ -279,7 +279,7 @@ color: #ffff00;
                 width: 50%;
                 min-width: 50%;
                 min-height: 50%;
-                margin-bottom: -20px;
+                margin-bottom: 0px;
                 margin-top: -20px;
                 }
             #costil{
@@ -360,4 +360,27 @@ color: #ffff00;
                 margin-top: -35px;
             }
  }
+
+ @media (max-width: 1023px) {
+    
+    #test .vs
+        {   
+        
+        height: 100px;
+        width: 100px;
+        
+        margin-bottom: -20px;
+        margin-top: -20px;
+        }
+    #costil{
+        display:none;
+        }
+
+    #test img{
+        
+        width: 220px; height: 220px; 
+        }
+
+    
+}
 

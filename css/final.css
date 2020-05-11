@@ -8,39 +8,9 @@ font-family: 'Montserrat', sans-serif;
 color: #333333;
 
 }
-.buttonh {
-    display: inline-block;
-    text-decoration: none;
-    font-weight: 900;
-    font-size: 20px;
-    color: #333333;
-    padding: 17px 40px;
-    border-radius: 100px;
-    text-transform: uppercase;
-    background-color: #ffff00;
-    margin: 10px;
-    -webkit-box-shadow: 0 10px 20px #ffff003f, 0 2px 15px #ffff003f;
-            box-shadow: 0 10px 20px #ffff003f, 0 2px 15px #ffff003f;
-    transition: font-size 0.5s, border-radius 0.5s, padding 0.5s;
-  }
-  .card-title
-  {
-font-weight: 700;
 
-  }
-  .buttonh:hover {
-    font-size: 22px;
-    border-radius: 110px;
-    padding: 17px 40px;
-    background-color: #dfdf00;
-    color: #333333;
-    text-decoration: none;
-    transition: font-size 0.5s, border-radius 0.5s, padding 0.5s;
-  }
-  .card{
-
-    height: 290px;
-  }
+  
+ 
   .htest{
       align-self: center;
       justify-self: center;
@@ -127,19 +97,8 @@ margin-bottom:1em;
     margin-top: 15px ;
 }
 
-#fixed
-{
-height: 680px;
-background: url("../images/fon.png") no-repeat center center fixed;
-background-blend-mode:multiply ;
--o-background-size: cover;
--moz-background-size: cover;
--webkit-background-size: cover;
-}
-#heighttrp
-{
-    height: 592px;
-}
+
+
 
 #opentests {
     margin-bottom: 25px;
@@ -254,7 +213,7 @@ color: #ffff00;
     
         /* Добавляем полосы прокрутки */
     width: 80%; /* Ширина блока */
-    height: 510px; /* Выdсота блока */
+    height: 510px; /* Высота блока */
     padding: 5px; /* Поля вокруг текста */
     border-radius: 5px;
     
