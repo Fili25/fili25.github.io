@@ -342,9 +342,10 @@ color: #ffff00;
             }
 
             .namepic{
-                font-size: 13px;
+                font-size: 18px;
                 font-weight: 700;
                 margin-top: 5px ;
+                margin-bottom: -4px;
             }
             .sst{
                 
@@ -355,6 +356,7 @@ color: #ffff00;
             {
                 margin-top: -20px;
             }
+            
             
  }
 
