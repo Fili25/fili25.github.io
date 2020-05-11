@@ -257,13 +257,13 @@ color: #ffff00;
 
 #pic2
 {
-    
+    object-fit: cover;
     border-top:  6px solid #333333;
     border-right: 6px solid #333333;
     transition: border-top 1s, border-right 1s;
 }
 #pic2:hover
-{
+{   object-fit: cover;
     border-top:  1px solid #333333;
     border-right: 1px solid #333333;
    transition: border-top 1s, border-right 1s;
@@ -277,6 +277,7 @@ color: #ffff00;
                 
                 height: 55px;
                 width: 55px;
+
                 }
             #costil{
                 display:none;
