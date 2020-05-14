@@ -136,13 +136,13 @@ body,html{
  /* footer */
 footer{
 
-  background-color:#333333;
-  padding-top: 30px;
-  border-top: 4px solid #ffff00;
-  border-right: 4px solid #ffff00;
-  color: #ffff00;
-  grid-row-start: 2;
-  grid-row-end: 3;
+    background-color:#333333;
+padding-top: 30px;
+border-top: 4px solid #ffff00;
+border-right: 4px solid #ffff00;
+color: #ffff00;
+grid-row-start: 2;
+grid-row-end: 3;
     }
 .ss {
         margin:5px;
