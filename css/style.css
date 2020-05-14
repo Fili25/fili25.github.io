@@ -26,9 +26,9 @@ grid-template-rows: 1fr auto;
   }
  
   .buttonh:hover {
-    font-size: 22px;
-    border-radius: 110px;
-    padding: 17px 40px;
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 17px 35px;
     background-color: #dfdf00;
     color: #333333;
     text-decoration: none;
