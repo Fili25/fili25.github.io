@@ -69,7 +69,7 @@ grid-template-rows: 1fr auto;
     padding-top: 2em;
 }
 .alert hr{
-border-top: 2px solid rgb(235, 235, 235);
+border-top: 2px solid #ebebeb;
 width: 95%;
 margin-top: 0.3em;
 margin-bottom:1em;
@@ -399,6 +399,7 @@ p
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   border-radius:16px;
   overflow:hidden;
+  border:3px solid #d8d8d8;
   -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
   box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
 }
@@ -422,7 +423,7 @@ p
 
 .property-description
 {
-  background-color: #333333;
+  background-color: #ffff00;
   height:7em;
   width:16em;
   position:absolute;
@@ -432,6 +433,7 @@ p
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   padding: 0.5em 1em;
   text-align:center;
+  
 }
 
 
