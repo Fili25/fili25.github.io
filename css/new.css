@@ -80,6 +80,10 @@ margin-bottom:1em;
     margin:5px;
     width: 50px;
 }
+.ss:hover {
+  margin:3px;
+  width: 52px;
+}
 .namepic{
     font-size: 30px;
     font-weight: 700;
@@ -90,6 +94,7 @@ margin-bottom:1em;
     font-weight: 700;
     margin-top: 15px ;
 }
+
 
 #fixed
 {
