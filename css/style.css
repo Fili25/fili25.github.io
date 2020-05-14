@@ -306,10 +306,7 @@ color: #ffff00;
             {
                 margin-top: -20px;
             }
-            .center{
-
-                margin-bottom: 25px;
-            }
+            
 
             
             
@@ -335,10 +332,10 @@ color: #ffff00;
         width: 220px; height: 220px; 
         }
 
-        .center{
+    .center{
 
-            margin-bottom: 25px;
-        }
+        margin-bottom: 55px;
+    }
 }
 
 
@@ -368,7 +365,7 @@ p
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 15px;
+  
 }
 
 /* End Non-Essential  */
