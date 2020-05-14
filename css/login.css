@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,700,900&display=swap');
 
 body,html{
-    width: 100%;
-    height: 100%;
-    font-family: 'Montserrat', sans-serif;
-    color: #333333;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+  grid-template-rows: 1fr auto;
     
     }
 .login-page {
@@ -134,12 +136,13 @@ body,html{
  /* footer */
 footer{
 
-    background-color:#333333;
-    padding-top: 30px;
-    border-top: 4px solid #ffff00;
-    border-right: 4px solid #ffff00;
-    color: #ffff00;
-    
+  background-color:#333333;
+  padding-top: 30px;
+  border-top: 4px solid #ffff00;
+  border-right: 4px solid #ffff00;
+  color: #ffff00;
+  grid-row-start: 2;
+  grid-row-end: 3;
     }
 .ss {
         margin:5px;
