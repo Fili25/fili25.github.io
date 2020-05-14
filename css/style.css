@@ -23,11 +23,7 @@ color: #333333;
             box-shadow: 0 10px 20px #ffff003f, 0 2px 15px #ffff003f;
     transition: font-size 0.5s, border-radius 0.5s, padding 0.5s;
   }
-  .card-title
-  {
-font-weight: 700;
-
-  }
+ 
   .buttonh:hover {
     font-size: 22px;
     border-radius: 110px;
@@ -37,41 +33,7 @@ font-weight: 700;
     text-decoration: none;
     transition: font-size 0.5s, border-radius 0.5s, padding 0.5s;
   }
-  .card{
 
-    height: 290px;
-  }
-  .htest{
-      align-self: center;
-      justify-self: center;
-      font-size: 70px;
-      font-weight: 700;
-  }
-
-
-  .buttont {
-    display: inline-block;
-    text-decoration: none;
-    font-weight: 900;
-    font-size: 14px;
-    color: #333333;
-    padding: 12px 25px;
-    border-radius: 100px;
-    text-transform: uppercase;
-    background-color: #ffff00;
-    margin: 10px;
-    
-    transition: font-size 0.5s, border-radius 0.5s, padding 0.5s;
-  }
-  .buttont:hover {
-    font-size: 15px;
-    border-radius: 130px;
-    padding: 13px 26px;
-    background-color: #dfdf00;
-    color: #333333;
-    text-decoration: none;
-    transition: background-color 0.5s,font-size 0.5s, border-radius 0.5s, padding 0.5s;
-  }
 .navbar-brand img{
     width: 200px;
 }
@@ -96,7 +58,7 @@ font-weight: 700;
 }
 
 .padding
-{padding-bottom: 3em;}
+{padding-bottom: 0em;}
 
 
 .alert{
@@ -118,7 +80,7 @@ margin-bottom:1em;
 }
 .namepic{
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 900;
     margin-top: 15px ;
 }
 .sst{
@@ -136,10 +98,7 @@ background-blend-mode:multiply ;
 -moz-background-size: cover;
 -webkit-background-size: cover;
 }
-#heighttrp
-{
-    height: 592px;
-}
+
 
 #opentests {
     margin-bottom: 25px;
@@ -167,11 +126,7 @@ color: #ffff00;
     }
 }
 
-.card img
-{
- max-height: 150px;
- object-fit: contain;
-}
+
 
 
 .h1main{
@@ -208,11 +163,6 @@ color: #ffff00;
 
     font-weight: 500;
 }
-
-
-
-
-
 
 #test
 {
@@ -357,6 +307,8 @@ color: #ffff00;
                 margin-top: -20px;
             }
             
+
+            
             
  }
 
@@ -381,5 +333,113 @@ color: #ffff00;
         }
 
     
+}
+
+
+/* Карточки */
+
+h5
+{
+  margin:0px;
+  font-size:1.4em;
+  font-weight:500;
+  color: #ffff00;
+}
+*
+{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+p
+{
+  font-size:12px;
+}
+
+.center
+{
+  height:35vh;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+/* End Non-Essential  */
+
+.property-card
+{
+  height:18em;
+  width:16em;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+}
+
+.property-image
+{
+  height:11em;
+  width:16em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('https://znaj.ua/images/2019/03/01/0QFJlXjejStU70B1DBxWQKbJ6HYcA2X02uOMOl04.jpeg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+/* Bottom Card Section */
+
+.property-description
+{
+  background-color: #333333;
+  height:7em;
+  width:16em;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
+}
+
+
+/* Property Cards Hover States */
+
+.property-card:hover .property-description
+{
+  height:0em;
+  padding:0px 1em;
+}
+.property-card:hover .property-image
+{
+  height:18em;
+}
+
+.property-card:hover 
+{
+  background-color:white;
+}
+
+.property-card:hover 
+{
+  background-color:#333333;
+  cursor:pointer;
 }
 
