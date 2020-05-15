@@ -11,7 +11,7 @@ body,html{
     }
 .login-page {
   width: 360px;
-  padding: 8% 0 0;
+  padding: 10px 0 0;
   margin: auto;
 }
 .form {
@@ -19,13 +19,13 @@ body,html{
   z-index: 1;
   background: #FFFFFF;
   max-width: 360px;
-  margin: 0 auto 100px;
+  margin: 25px auto 100px;
   padding: 45px;
   text-align: center;
   box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 .form input {
-  font-family: "Roboto", sans-serif;
+  
   outline: 0;
   background: #f2f2f2;
   width: 100%;
@@ -35,9 +35,10 @@ body,html{
   box-sizing: border-box;
   font-size: 14px;
 }
-.form select {
-  font-family: "Roboto", sans-serif;
+select {
+    
   outline: 0;
+  color: #818181;
   background: #f2f2f2;
   width: 100%;
   border: 0;
@@ -47,8 +48,36 @@ body,html{
   font-size: 14px;
   
 }
+
+select:hover {
+
+  outline: 0;
+  background: #e0e0e0;
+  color: #333333;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  
+}
+.spancoin{
+  font-size: 18px;
+  font-weight: 900;
+  
+}
+.coinimg{
+
+  display: inline-block;
+  
+  width: 25px;
+  
+  margin-bottom: 5px;
+}
+
 .form button {
-  font-family: "Roboto", sans-serif;
+  
   text-transform: uppercase;
   outline: 0;
   background: #ffff00;
@@ -66,16 +95,16 @@ body,html{
 }
 .form .message {
   margin: 15px 0 0;
-  color: #b3b3b3;
+  
   font-size: 12px;
 }
-.form .message a {
+.form .message  {
   color: #333333;
   text-decoration: none;
   transition: font-weight 0.1s;
   font-weight: 400;
 }
-.form .message a:hover{
+.form .message:hover{
   color: #333333;
   text-decoration: none;
   transition: font-weight 0.1s;
@@ -167,7 +196,12 @@ grid-row-end: 3;
 .sst{
         font-weight: 700;
     }
-    .padding
-    {padding-bottom: 3em;}
-
     
+
+    h4
+    {
+display: flex;
+text-justify: center;
+text-align: center;
+
+    }

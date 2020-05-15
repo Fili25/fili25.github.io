@@ -196,6 +196,14 @@ footer p{font-size: 16px;}
     background-color: #ffff00;
     margin-bottom: -20px;
 }
+.partabout
+{   
+    
+    font-weight: 500;
+    margin-top: 20px;
+    background-color: #ffff00;
+    
+}
 #pic1
 {
     
@@ -357,8 +365,8 @@ h5
 {
   margin:0px;
   font-size:1.4em;
-  font-weight:500;
-  color: #ffff00;
+  font-weight:900;
+  color: #333333;
 }
 *
 {
@@ -397,24 +405,70 @@ p
   -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  border-radius:16px;
+  border-radius:10px;
   overflow:hidden;
-  border:3px solid #d8d8d8;
-  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
-  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  border:2px solid #d8d8d8;
+ 
+  margin: 10px;
+}
+select {
+    
+    outline: 0;
+    color: #5c5c5c;
+    background: #f2f2f2;
+    
+    width: 80%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 700;
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  select:hover {
+  
+    
+    background: #e0e0e0;
+    color: #333333;
+    font-size: 21px;
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+.btn-group{
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
 }
 
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
 .property-image
 {
-  height:11em;
+  height:14em;
   width:16em;
   padding:1em 2em;
   position:Absolute;
   top:0px;
+  background-position:center;
   -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-image:url('https://znaj.ua/images/2019/03/01/0QFJlXjejStU70B1DBxWQKbJ6HYcA2X02uOMOl04.jpeg');
   background-size:cover;
   background-repeat:no-repeat;
 }
@@ -424,7 +478,7 @@ p
 .property-description
 {
   background-color: #ffff00;
-  height:7em;
+  height:4em;
   width:16em;
   position:absolute;
   bottom:0em;
@@ -440,13 +494,15 @@ p
 /* Property Cards Hover States */
 
 .property-card:hover .property-description
-{
+{  
+    
   height:0em;
   padding:0px 1em;
 }
 .property-card:hover .property-image
 {
   height:18em;
+ 
 }
 
 .property-card:hover 
@@ -456,7 +512,7 @@ p
 
 .property-card:hover 
 {
-  background-color:#333333;
+  
   cursor:pointer;
 }
 
