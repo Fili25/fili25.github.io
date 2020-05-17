@@ -146,8 +146,11 @@ footer p{font-size: 16px;}
 }
 
 #headback
-{  
+{
+    border-top:  4px solid floralwhite;
+    border-bottom:  4px solid floralwhite;
     background: url("../images/fon.png") no-repeat center center fixed;
+    
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover; 
