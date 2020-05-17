@@ -97,7 +97,7 @@ margin-bottom:1em;
 {
 height: 680px;
 background: url("../images/fon.png") no-repeat center center fixed;
-background-blend-mode:multiply ;
+
 -o-background-size: cover;
 -moz-background-size: cover;
 -webkit-background-size: cover;
