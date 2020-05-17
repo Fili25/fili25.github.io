@@ -46,7 +46,7 @@ grid-template-rows: 1fr auto;
 {
     font-size: 1.1em !important;
     color: #ffff00 !important;
-    
+    transition: color 0.5s,background-color 1s;
     
 }
 .nav-link:hover
@@ -193,34 +193,20 @@ footer p{font-size: 16px;}
     background-color: #ffff00;
     
 }
-#pic1
+#pic
 {
     
-    border-bottom:  6px solid #ffff00;
-    border-left: 6px solid #ffff00;
-    transition: border-left 1s, border-bottom 1s;
+    object-fit: cover;
+    padding: 15px;
+    
+    transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-#pic1:hover
+#pic:hover
 {
-    border-bottom:1px solid #ffff00;
-    border-left:1px solid #ffff00;
-    
-    transition: border-left 1s, border-bottom 1s;
+    padding: 0px;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-#pic2
-{
-    object-fit: cover;
-    border-top:  6px solid #333333;
-    border-right: 6px solid #333333;
-    transition: border-top 1s, border-right 1s;
-}
-#pic2:hover
-{   object-fit: cover;
-    border-top:  1px solid #333333;
-    border-right: 1px solid #333333;
-   transition: border-top 1s, border-right 1s;
-}
 
 
 @media (max-width: 767px) {
