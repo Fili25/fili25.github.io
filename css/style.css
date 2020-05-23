@@ -209,127 +209,6 @@ footer p{font-size: 16px;}
 
 
 
-@media (max-width: 767px) {
-            .part
-                {   
-                font-weight: 700;
-                margin-top: 0px;
-                background-color: #ffff00;
-                margin-bottom: -20px;
-                border-radius: 0px 0px 10px 10px;
-                }
-            #test .vs
-                {   
-                
-                height: 50px;
-                width: 50px;
-
-                }
-            #costil{
-                display:none;
-                }
-
-            #test img{
-                
-                width: 170px; height: 170px; 
-                }
-
-            .h1main{
-                
-                margin-top:35px ;
-                font-weight: 900;
-                font-size: 30px;
-                color: #ffff00;
-                
-
-                }
-            .h2main{
-                
-                font-weight: 700;
-                font-size: 20px;
-                color: #ffff00;
-                
-
-                }
-           
-            .navbar-brand img
-                {
-                width: 110px;
-                }
-            .buttonh
-            {
-                display: inline-block;
-                text-decoration: none;
-                font-weight: 900;
-                font-size: 15px;
-                color: #333333;
-                padding: 15px 30px;
-                border-radius: 50px;
-                text-transform: uppercase;
-                background-color: #ffff00;
-                margin-bottom: 25px;
-                /* -webkit-box-shadow: 0 10px 10px #ffff003f, 0 2px 10px #ffff003f;
-                        box-shadow: 0 10px 10px #ffff003f, 0 2px 10px #ffff003f; */
-
-            }
-            .htest{
-                align-self: center;
-                justify-self: center;
-                font-size: 30px;
-                font-weight: 700;
-            }
-
-            .namepic{
-                font-size: 18px;
-                font-weight: 900;
-                margin-top: 5px ;
-                margin-bottom: -4px;
-            }
-            .sst{   
-                font-weight: 700;
-                margin-top: 5px ;
-             }
-            #pic1
-            {
-                margin-top: -20px;
-            }
-            
-
-            
-            
- }
- @media(max-height:840px) 
- {
-
-    
-    
- }
-
- @media (max-width: 1023px) {
-    
-    #test .vs
-        {   
-        
-        height: 100px;
-        width: 100px;
-        
-        margin-bottom: -20px;
-        margin-top: -20px;
-        }
-    #costil{
-        display:none;
-        }
-
-    #test img{
-        
-        width: 220px; height: 220px; 
-        }
-
-    .center{
-
-        margin-bottom: 55px;
-    }
-}
 
 
 /* Карточки */
@@ -363,27 +242,7 @@ p
 
 /* End Non-Essential  */
 
-.property-card
-{
-  height:18em;
-  width:16em;
-  display:-webkit-box;
-  display:-ms-flexbox;
-  display:flex;
-  -webkit-box-orient:vertical;
-  -webkit-box-direction:normal;
-  -ms-flex-direction:column;
-  flex-direction:column;
-  position:relative;
-  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  border-radius:10px;
-  overflow:hidden;
-  border:2px solid #d8d8d8;
- 
-  margin: 10px;
-}
+
 select {
     
     outline: 0;
@@ -430,6 +289,27 @@ select {
 /* Add a background color on hover */
 .btn-group button:hover {
     background-color: #3e8e41;
+}
+.property-card
+{
+  height:18em;
+  width:16em;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:10px;
+  overflow:hidden;
+  border:2px solid #d8d8d8;
+ 
+  margin: 10px;
 }
 .property-image
 {
@@ -489,3 +369,172 @@ select {
   cursor:pointer;
 }
 
+
+
+@media (max-width: 767px) {
+    .part
+        {   
+        font-weight: 700;
+        margin-top: 0px;
+        background-color: #ffff00;
+        margin-bottom: -20px;
+        border-radius: 0px 0px 10px 10px;
+        }
+    #test .vs
+        {   
+        
+        height: 50px;
+        width: 50px;
+
+        }
+    #costil{
+        display:none;
+        }
+
+    #test img{
+        
+        width: 170px; height: 170px; 
+        }
+
+    .h1main{
+        
+        margin-top:35px ;
+        font-weight: 900;
+        font-size: 30px;
+        color: #ffff00;
+        
+
+        }
+    .h2main{
+        
+        font-weight: 700;
+        font-size: 20px;
+        color: #ffff00;
+        
+
+        }
+   
+    .navbar-brand img
+        {
+        width: 110px;
+        }
+    .buttonh
+    {
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 15px;
+        color: #333333;
+        padding: 15px 30px;
+        border-radius: 50px;
+        text-transform: uppercase;
+        background-color: #ffff00;
+        margin-bottom: 25px;
+        /* -webkit-box-shadow: 0 10px 10px #ffff003f, 0 2px 10px #ffff003f;
+                box-shadow: 0 10px 10px #ffff003f, 0 2px 10px #ffff003f; */
+
+    }
+    .htest{
+        align-self: center;
+        justify-self: center;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .namepic{
+        font-size: 18px;
+        font-weight: 900;
+        margin-top: 5px ;
+        margin-bottom: -4px;
+    }
+    .sst{   
+        font-weight: 700;
+        margin-top: 5px ;
+     }
+    #pic1
+    {
+        margin-top: -20px;
+    }
+    
+
+    .property-card {
+        height:18em;
+        width:16em;
+    }
+    
+    .property-image
+    {
+      height:14em;
+      width:16em;
+      
+    }
+    
+    /* Bottom Card Section */
+    
+    .property-description
+    {
+      background-color: #ffff00;
+      height:4em;
+      width:16em;
+      
+      
+    }
+    .property-card:hover .property-image
+    {
+      height:18em;
+     
+    }
+    
+}
+
+
+@media (max-width: 1024px) {
+
+#test .vs
+{   
+
+height: 100px;
+width: 100px;
+
+margin-bottom: -20px;
+margin-top: -20px;
+}
+
+
+#test img{
+
+width: 220px; height: 220px; 
+}
+
+.center{
+
+margin-bottom: 55px;
+}
+.property-card {
+    height:16em;
+    width:15em;
+}
+
+.property-image
+{
+  height:12em;
+  width:15em;
+  
+}
+
+/* Bottom Card Section */
+
+.property-description
+{
+  background-color: #ffff00;
+  height:4em;
+  width:15em;
+  
+  
+}
+.property-card:hover .property-image
+{
+  height:16em;
+ 
+}
+}
