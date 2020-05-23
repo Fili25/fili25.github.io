@@ -539,3 +539,55 @@ margin-bottom: 55px;
  
 }
 }
+
+
+
+@media (min-width: 1981px) {
+
+    #test img{
+    
+        width: 500px; height: 500px; 
+    }
+    #test .vs
+    {   
+        
+        height: 100%;
+        width: 100%;
+        margin-bottom:0px;
+    }
+    
+    
+    .center{
+    
+    margin-bottom: 55px;
+    }
+    .property-card {
+        height:25em;
+        width:20em;
+    }
+    
+    .property-image
+    {
+      height:20em;
+      width:20em;
+      
+    }
+    
+    /* Bottom Card Section */
+    
+    .property-description
+    {
+      background-color: #ffff00;
+      height:5em;
+      width:20em;
+      
+      
+    }
+    .property-card:hover .property-image
+    {
+      height:25em;
+     
+    }
+    }
+
+    
