@@ -460,6 +460,7 @@ select {
     .property-card {
         height:18em;
         width:16em;
+       
     }
     
     .property-image
@@ -488,7 +489,7 @@ select {
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1366px) {
 
 #test .vs
 {   
