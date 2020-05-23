@@ -298,6 +298,12 @@ footer p{font-size: 16px;}
             
             
  }
+ @media(max-height:840px) 
+ {
+
+    
+    
+ }
 
  @media (max-width: 1023px) {
     
