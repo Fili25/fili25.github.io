@@ -9,6 +9,7 @@ font-family: 'Montserrat', sans-serif;
 color: #333333;
 grid-template-rows: 1fr auto;
 }
+
 .buttonh {
     display: inline-block;
     text-decoration: none;
@@ -232,7 +233,7 @@ p
 
 .center
 {
-  height:35vh;
+  height:320px;
   width:100%;
   display: flex;
   justify-content: center;
@@ -292,8 +293,8 @@ select {
 }
 .property-card
 {
-  height:18em;
-  width:16em;
+  height:300px;
+  width:250px;
   display:-webkit-box;
   display:-ms-flexbox;
   display:flex;
@@ -309,12 +310,11 @@ select {
   overflow:hidden;
   border:2px solid #d8d8d8;
  
-  margin: 10px;
 }
 .property-image
 {
-  height:14em;
-  width:16em;
+  height:80%;
+  width:100%;
   padding:1em 2em;
   position:Absolute;
   top:0px;
@@ -331,8 +331,8 @@ select {
 .property-description
 {
   background-color: #ffff00;
-  height:4em;
-  width:16em;
+  height:20%;
+  width:100%;
   position:absolute;
   bottom:0em;
   -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -354,7 +354,7 @@ select {
 }
 .property-card:hover .property-image
 {
-  height:18em;
+  height:100%;
  
 }
 
@@ -489,7 +489,7 @@ select {
 }
 
 
-@media (max-width: 1366px) {
+/* @media (max-width: 1366px) {
 
 #test .vs
 {   
@@ -523,7 +523,7 @@ margin-bottom: 55px;
   
 }
 
-/* Bottom Card Section */
+
 
 .property-description
 {
@@ -538,11 +538,11 @@ margin-bottom: 55px;
   height:16em;
  
 }
-}
+} */
 
 
 
-@media (min-width: 1981px) {
+/* @media (min-width: 1981px) {
 
     #test img{
     
@@ -573,7 +573,7 @@ margin-bottom: 55px;
       
     }
     
-    /* Bottom Card Section */
+   
     
     .property-description
     {
@@ -588,6 +588,6 @@ margin-bottom: 55px;
       height:25em;
      
     }
-    }
+    } */
 
     
