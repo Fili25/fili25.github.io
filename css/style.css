@@ -131,7 +131,15 @@ footer p{font-size: 16px;}
 }
 
 
+.linklog{
 
+  color: #333333;
+  font-weight: 600;
+}
+.linklog:hover{
+
+  color: #333333;
+}
 
 .h1main{
     
